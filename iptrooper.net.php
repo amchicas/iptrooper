@@ -1,7 +1,7 @@
 <?php
 
 function checkIp($ip){
-		$timeout=5; //by default, wait no longer than 5 secs for a response
+		$timeout=5; // maximum 5 secs 
 	
 		//init cURL 
 		$ch = curl_init();
